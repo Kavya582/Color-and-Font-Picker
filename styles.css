@@ -1,0 +1,692 @@
+body{
+    background: rgb(5, 52, 88);
+}
+
+#header{
+    margin: 0px;
+    padding:0px;
+    color:navy;
+    font-size: 35px;
+    font-weight: 600;
+    background-color: azure;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:15px;
+    margin-bottom:15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   z-index: 0px;
+
+}
+
+h2{
+    border:none;
+}
+
+
+#header1{
+    display:block;
+    margin: 0px;
+    padding:0px;
+    color:purple;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#download{
+    height:45px;
+    width: 150px;
+    padding:15px;
+    text-align: center;
+    border:1px solid black;
+    margin:10px;
+    margin-left:5%;
+    border-radius: 5px;
+    background-color: azure;
+    font-size: 18px;
+}
+
+#download:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    border-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:50px;
+    margin-top:30px;
+    
+}
+
+.heading{
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-top: 0px;
+    font-size: 25px;
+    margin-bottom: 2px;
+    color:purple;
+}
+
+#text{
+    border-radius: 10px;
+    height:500px;
+    width:600px;
+    float:top;
+    text-align: center;
+    font-size: 16px;  
+    padding:50px; 
+}
+
+#text-editor{
+    background-color: azure;
+    height:550px;
+    width:600px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+
+
+
+#photo{
+    align-content: center;
+    justify-content: center;
+}
+
+#text-editor:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    border-style: none;
+}
+
+.color-picker{
+    margin:2px;
+}
+
+.sub-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+    height:640px;
+    width:650px;
+    background-color: white;
+    border:1px dashed black;
+ 
+    
+}
+
+.sub-1:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style:none;
+}
+
+.sub-container{
+    display:grid;
+    justify-content: space-between;
+    padding:10px;
+ 
+    
+}
+
+
+
+#font-color{
+    border-radius: 10px;
+    border:1px solid black;
+    background-color: white;
+    height:280px;
+    width:38%;
+    margin-left:2%;
+    position:absolute;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+   
+    padding-left:25px;
+    padding-right:0px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#font-color:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style: none;
+}
+
+#fonts1{
+    border-radius: 10px;
+    border:1px solid black;
+    background-color: white;
+    height:280px;
+    width:39%;
+    padding:5px;
+    margin-left:31px;
+    margin-top: 10px;
+    position:absolute;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+}
+
+#fonts1:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style: none;
+}
+
+#font-box{
+   margin-top: 15px;
+}
+
+#bg-color:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style: none;
+}
+
+
+
+#bg-color{ 
+    border-radius: 10px;
+    border:1px solid black;
+    background-color: white;
+    height:280px;
+    width:250px;
+    padding:5px;
+    margin-left:18px;
+    margin-top: 10px;
+    position:absolute;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+}
+
+#bg-box{
+    background-color: white;
+    height:80%;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    position:relative;
+    padding-left:5px;
+}
+
+#font-box{
+    background-color: white;
+    height:80%;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    position:relative;
+    padding-left:5px;
+}
+
+
+
+#font-color1{
+    border-radius: 10px;
+    border:1px solid black;
+    background-color: white;
+    height:280px;
+    width:250px;
+    padding:5px;
+    margin-left:18px;
+    margin-top: 10px;
+    position:absolute;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+}
+
+#fonts:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style:none;
+}
+
+
+
+#font-color1:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style:none;
+}
+
+
+#bg-box1{
+    background-color: white;
+    height:80%;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    position:relative;
+    padding-left:5px;
+}
+
+
+.color-picker{
+    border:1px solid black;
+    border-radius: 50px;
+    height:35px;
+    width:35px;
+}
+
+.color-picker1{
+    border:1px solid black;
+    border-radius: 50px;
+    height:35px;
+    width:35px;
+    margin-top:4px;
+}
+
+.color-picker:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style:none;
+}
+
+.color-picker1:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style:none;
+}
+
+#color-1{
+    background-color: white;
+}
+
+#color-2{
+    background-color: rgb(207, 128, 24);
+}
+
+#color-3{
+    background-color: rgb(14, 13, 11);
+}
+
+#color-4{
+    background-color: rgb(165, 154, 140);
+}
+
+#color-5{
+    background-color: pink;
+}
+
+#color-6{
+    background-color: blue;
+}
+
+#color-7{
+    background-color: navy;
+}
+
+#color-8{
+    background-color: purple;
+}
+
+#color-9{
+    background-color: rgb(110, 110, 161);
+}
+
+#color-10{
+    background-color: violet;
+}
+
+#color-11{
+    background-color: skyblue;
+}
+
+#color-12{
+    background-color: green;
+}
+
+#color-13{
+    background-color: lightgreen;
+}
+
+#color-14{
+    background-color: rgb(241, 234, 234);
+}
+
+#color-15{
+    background-color: yellow;
+}
+
+#color-16{
+    background-color: orange;
+}
+
+#color-17{
+    background-color: red;
+}
+
+#color-18{
+    background-color: orangered;
+}
+
+#color-19{
+    background-color: rgb(192, 180, 180);
+}
+
+#color-20{
+    background-color: rgb(68, 228, 151);
+}
+
+#color-21{
+    background-color: rgb(21, 193, 178);
+}
+
+#color-22{
+    background-color: rgb(9, 248, 25);
+}
+
+#color-23{
+    background-color: rgb(122, 27, 27);
+}
+
+#color-24{
+    background-color: rgb(222, 248, 188);
+}
+
+#color-25{
+    background-color: rgb(233, 193, 15);
+}
+
+#color-26{
+    background-color: rgb(255, 206, 160);
+}
+
+#color-27{
+    background-color: rgb(255, 101, 224);
+}
+
+#color-28{
+    background-color: rgb(14, 124, 102);
+}
+
+#color-29{
+    background-color:rgb(4, 78, 36);
+}
+
+#color-30{
+    background-color: rgb(204, 232, 16);
+}
+
+
+
+#colors-1{
+    background-color: antiquewhite;
+}
+
+#colors-2{
+    background-color: rgb(207, 128, 24);
+}
+
+#colors-3{
+    background-color: rgb(14, 13, 11);
+}
+
+#colors-4{
+    background-color: rgb(165, 154, 140);
+}
+
+#colors-5{
+    background-color: pink;
+}
+
+#colors-6{
+    background-color: blue;
+}
+
+#colors-7{
+    background-color: navy;
+}
+
+#colors-8{
+    background-color: purple;
+}
+
+#colors-9{
+    background-color: rgb(110, 110, 161);
+}
+
+#colors-10{
+    background-color: violet;
+}
+
+#colors-11{
+    background-color: skyblue;
+}
+
+#colors-12{
+    background-color: green;
+}
+
+#colors-13{
+    background-color: lightgreen;
+}
+
+#colors-14{
+    background-color: rgb(241, 234, 234);
+}
+
+#colors-15{
+    background-color: yellow;
+}
+
+#colors-16{
+    background-color: orange;
+}
+
+#colors-17{
+    background-color: red;
+}
+
+#colors-18{
+    background-color: orangered;
+}
+
+#colors-19{
+    background-color: rgb(192, 180, 180);
+}
+
+#colors-20{
+    background-color: rgb(68, 228, 151);
+}
+
+#colors-21{
+    background-color: rgb(21, 193, 178);
+}
+
+#colors-22{
+    background-color: rgb(9, 248, 25);
+}
+
+#colors-23{
+    background-color: rgb(122, 27, 27);
+}
+
+#colors-24{
+    background-color: rgb(222, 248, 188);
+}
+
+#colors-25{
+    background-color: rgb(233, 193, 15);
+}
+
+#colors-26{
+    background-color: rgb(255, 206, 160);
+}
+
+#colors-27{
+    background-color: rgb(255, 101, 224);
+}
+
+#colors-28{
+    background-color: rgb(14, 124, 102);
+}
+
+#colors-29{
+    background-color:rgb(4, 78, 36);
+}
+
+#colors-30{
+    background-color: rgb(204, 232, 16);
+}
+
+#font-color li{
+    text-decoration:none;
+}
+
+.font{
+    height:30px;
+    width:70px;
+    border-radius:5px;
+    padding:5px;
+    align-content: center;
+    text-align: center;
+   
+}
+
+.font:hover{
+    box-shadow: 0px 1px 10px 1px black,
+    0px 2px 10px 2px white,
+    0px 1px 10px 1px black,
+    0px 2px 10px 2px white;
+    cursor:pointer;
+    border-style:none;
+}
+
+#font1{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#font2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#font3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#font4{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#font5{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#font6{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#font7{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#font8{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#font9{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#font10{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#font11{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#font12{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#font13{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+
+#font14{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:serif;
+}
+
+#font15{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:cursive;
+}
